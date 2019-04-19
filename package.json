@@ -1,5 +1,5 @@
 {
-  "name": "hello-world",
+  "name": "com.TRDA.DValley",
   "main": "dist/app.js",
   "private": true,
   "scripts": {
