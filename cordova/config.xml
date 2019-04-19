@@ -1,6 +1,6 @@
 <?xml version='1.0' encoding='utf-8'?>
 <widget
-  id="com.eclipsesource.hello.world"
+  id="com.TRDA.DValley"
   version="0.6.0"
   android-versionCode="$BUILD_NUMBER"
   ios-CFBundleVersion="$BUILD_NUMBER">
