@@ -17,4 +17,4 @@ let textView = new TextView({
 
 let tabrisVersion = (tabris as any).version;
 // Change the text when the button is pressed
-button.on({select: () => textView.text = `Tabris.js ${tabrisVersion} rocks!`});
+button.on({select: () => textView.text = `Tabris.js ${tabrisVersion} rocks2!`});
