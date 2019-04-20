@@ -3,18 +3,17 @@
   "main": "dist/app.js",
   "private": true,
   "scripts": {
-    "test": "tslint 'src/**/*.ts'",
-    "build": "tsc -p .",
-    "watch": "tsc -w -p .",
-    "start": "npm-run-all --parallel watch serve",
-    "serve": "tabris serve"
+    "test": "eslint .",
+    "build": "babel --compact false --out-dir dist/ src/",
+    "start": "tabris serve"
   },
   "dependencies": {
     "tabris": "2.6.1"
   },
   "devDependencies": {
     "npm-run-all": "^4.1.2",
-    "tslint": "^5.11.0",
-    "typescript": "^3.0.3"
+    "babel-cli": "^6.26.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.2",
+    "eslint": "^5.16.0"
   }
 }
